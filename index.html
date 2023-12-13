@@ -3,55 +3,205 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Your Name</h1>
+        <h1>Shreyas Agrawal</h1>
         <nav>
             <ul>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Work/Internships</a></li>
+                <li><a href="#leadership">Leadership Experience</a></li>
+                <li><a href="#contact">Contact Info</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Your bio goes here. Include your college, interests, etc.</p>
-        <!-- You can add your photo here using <img src="path_to_your_photo.jpg" alt="Your Name"> -->
+        <p>Born in New Delhi, India, raised in Kathmandu, Nepal, and studying Computer Science and Statistics in the United States at Grinnell College. I'm interested in finding ways to use technology for social good and I'm driven by facing new problems everyday all of which have creative solutions that can have a meaningful impact on so many lives! Shoot a message to chat about any of my experiences, projects, future plans, or just to say Hi!</p>
+        <img src="shreyas-agrawal.jpg" alt="Shreyas Agrawal">
     </section>
 
     <section id="skills">
         <h2>Skills</h2>
-        <ul>
-            <li>Skill 1</li>
-            <li>Skill 2</li>
-            <!-- Add more skills as needed -->
-        </ul>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3><i class="fa fa-code"></i> Programming Languages</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>JavaScript (Next.js, Svelte)</li>
+                    <li>R</li>
+                    <li>SQL</li>
+                    <li>C</li>
+                    <li>C#</li>
+                    <li>CUDA</li>
+                    <li>Java</li>
+                    <li>Alloy</li>
+                    <li>UML</li>
+                    <li>Bash</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>PHP</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fa fa-wrench"></i> Tools</h3>
+                <ul>
+                    <li>AWS CDK</li>
+                    <li>Gitlab</li>
+                    <li>Postman</li>
+                    <li>SQLAlchemy</li>
+                    <li>MongoDB</li>
+                    <li>Zapier</li>
+                    <li>Pandas</li>
+                    <li>RShiny</li>
+                    <li>ArcGIS</li>
+                    <li>Figma</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fa fa-users"></i> Soft Skills</h3>
+                <ul>
+                    <li>Teamwork</li>
+                    <li>Communication</li>
+                    <li>Problem Solving</li>
+                    <li>Leadership</li>
+                    <li>Adaptability</li>
+                </ul>
+            </div>
+        </div>
     </section>
+      
 
     <section id="projects">
         <h2>Projects</h2>
+    
         <!-- Project 1 -->
         <div class="project">
-            <h3>Project Title 1</h3>
-            <img src="path_to_project_image.jpg" alt="Project 1">
-            <p>Project description here. Include keywords.</p>
+            <h3>Sleep</h3>
+            <img src="sleep.png" alt="Sleep Project">
+            <p>This application allows you to visualize and analyze various sleep metrics using two detailed datasets. It enables custom analyses on sleep metrics, insights into factors impacting sleep efficiency, and exploration of individual data points and trends. <a href="https://pps0cw-shreyas-agrawal.shinyapps.io/sleep/">Explore the project further.</a></p>
         </div>
+    
         <!-- Project 2 -->
         <div class="project">
-            <h3>Project Title 2</h3>
-            <img src="path_to_project_image.jpg" alt="Project 2">
-            <p>Project description here. Include keywords.</p>
+            <h3>GCIEL Assessment Strategy</h3>
+            <img src="gciel.png" alt="GCIEL Assessment Strategy Project">
+            <p>The GCIEL Viking Longship Assessment Strategy project implements an assessment strategy for a VR game, focusing on the ARCS model to measure motivation and intention in VR, enhancing learning experiences. Objectives include measuring user motivation, analyzing learning outcomes, and creating a questionnaire based on the ARCS Model. This is a group project where I was responsible for making the R-Shiny app linked below. <a href="https://pps0cw-shreyas-agrawal.shinyapps.io/src-final/">Explore the project further.</a></p>
         </div>
-        <!-- Add more projects as needed -->
+    
+        <!-- Project 3 -->
+        <div class="project">
+            <h3>GrinEats - Product Owner and Developer</h3>
+            <img src="grineats.png" alt="GrinEats Project">
+            <p>Achieved 1000+ downloads on iOS and Android with GrinEats, an innovative cross-platform mobile application designed to reduce food waste. Developed using React Native, Python, MongoDB, and Expo. <a href="https://avaash.com.np/grineats/">Explore the project further.</a></p>
+        </div>
+    
+        <!-- Project 4 -->
+        <div class="project">
+            <h3>Earthquake Modelling - R Shiny App</h3>
+            <img src="earthquake.png" alt="Earthquake Modelling Project">
+            <p>Built a web app for earthquake data analysis using over 142,000 observations from USGS. Main packages include shiny, leaflet, geojsonio, dplyr, tidyr, htmltools, plotly, ggplot2. <a href="https://shrey-agra.shinyapps.io/earthquakes/">Explore the project further.</a></p>
+        </div>
+
+        <div class="project">
+            <h3>Connect 4: Computer Game</h3>
+            <img src="connect4.png" alt="Connect 4: Computer Game Project">
+            <p>Built a system where a user can play the 'Connect 4' game with a computer that uses parallel computing implemented in CUDA by utilizing the GPU to compute every possible board over the next n moves. Analyzed the best move for the computer to play in real-time by leveraging the GPU. <a href="https://github.com/shreyasagrawal/Connect4">Explore the project further.</a></p>
+        </div>
+        
+    </section>
+
+    <!-- Add Work/Internships Section -->
+    <section id="experience">
+        <h2>Work/Internships</h2>
+        
+        <!-- Experience 1 -->
+        <div class="experience">
+            <h3>Synchron</h3>
+            <p>Software Engineering Intern</p>
+            <p>Jun 2023 - Present</p>
+            <ul>
+                <li>Designed cloud software architecture documents for a company-wide design inputs review process using the 4+1 architecture model, UML, and Sphinx.</li>
+                <li>Designed and implemented a robust user authentication system, leveraging Azure Active Directory as the identity provider for an AWS Cognito user pool to provide secure access for authorized individuals.</li>
+                <li>Implemented a cloud backend using AWS CDK (Python) to facilitate interactions with a PostgreSQL database and AWS Cognito via authorized API calls, complemented by a responsive web frontend developed with Next.js.</li>
+            </ul>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="experience">
+            <h3>SpaySecure Pet Services</h3>
+            <p>Technical Development and Operations Intern</p>
+            <p>Oct 2022 - May 2023</p>
+            <ul>
+                <li>Increased prospective leads in the sales pipeline by 65.8% after implementing a system for automating the identification of new potential clients using data analysis techniques, Airtable scripts, and Slack integration.</li>
+                <li>Designed a system for clients and admin to report and track problematic buyers, streamlining incident management and establishing an alert database for non-compliant buyers.</li>
+            </ul>
+        </div>
+
+        <!-- Experience 3 -->
+        <div class="experience">
+            <h3>Data Science Research at Grinnell College</h3>
+            <p>Undergraduate Researcher</p>
+            <p>Jun 2022 - Aug 2022</p>
+            <ul>
+                <li>Analyzed data collected through longitudinal surveys with over 600 participants from 5 different universities across the US to test the effectiveness of educational statistics games and make data-driven changes.</li>
+                <li>Rebuilt a data story and games website to make appropriate changes using HTML, CSS, R Shiny, and PHP.</li>
+            </ul>
+        </div>
+
+        <!-- Experience 4 -->
+        <div class="experience">
+            <h3>CLINIS Pvt. Ltd</h3>
+            <p>Software Engineering Intern (Full-time during A-levels)</p>
+            <p>Jul 2019 - Aug 2019</p>
+            <ul>
+                <li>Improved server troubleshooting, enhanced network support, and scheduled IP address pings for ongoing user support by building and integrating a server failure alert system using C, Slack API, Quartz, and JSON.</li>
+            </ul>
+        </div>
+    </section>
+
+        <!-- Add Leadership Experience Section -->
+    <section id="leadership">
+        <h2>Leadership Experience</h2>
+
+        <!-- Leadership Experience 1 -->
+        <div class="leadership-experience">
+            <h3>Data Analysis and Social Inquiry Lab</h3>
+            <p>Data Science Mentor</p>
+            <p>Mentored students and faculty in Python, R, and ArcGIS for data analysis and modeling.</p>
+        </div>
+
+        <!-- Leadership Experience 2 -->
+        <div class="leadership-experience">
+            <h3>Grinnell College Computer Science Department</h3>
+            <p>Teaching Assistant</p>
+            <p>Mentored over 80 students in C and Java programming, facilitating weekly office hours.</p>
+        </div>
+
+        <!-- Leadership Experience 3 -->
+        <div class="leadership-experience">
+            <h3>GrinTECH for Social Good</h3>
+            <p>Co-Founder and Co-President</p>
+            <p>Conducted workshops, crash courses, and events impacting over 120 students.</p>
+        </div>
+    </section>
+
+    <!-- Add Contact Info/Section -->
+    <section id="contact">
+        <h2>Contact Info</h2>
+        <p>Email: <a href="mailto:agrawals@grinnell.edu">agrawals@grinnell.edu</a></p>
+        <p>Phone: +1 641-260-4159</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/shrey21/">https://www.linkedin.com/in/shrey21/</a></p>
     </section>
 
     <footer>
-        <p>&copy; 2023 Your Name</p>
+        <p>&copy; 2023 Shreyas Agrawal</p>
     </footer>
 </body>
 </html>
